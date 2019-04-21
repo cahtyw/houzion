@@ -1,0 +1,8 @@
+.carousel img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.text-justify {
+	text-align: justify;
+}

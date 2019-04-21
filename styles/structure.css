@@ -1,0 +1,15 @@
+.main {
+	padding-top: 5vh;
+}
+
+.separator {
+	background-image: url("../images/comp/separator.png");
+	padding-bottom: 2px;
+	text-align: center;
+	width: auto;
+}
+
+
+.text-center{
+	margin: auto;
+}
