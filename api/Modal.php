@@ -334,7 +334,7 @@
 
 		/*Estabelece a conexão com o banco através de um vetor*/
 		function ConnectServer(/*$database*/) {
-			$database = array("localhost", "5432", "houzion", "houzion", "bj2fF4");
+			$database = array("localhost", "5432", "houzion", "houzion", "pass");
 			try {
 				$this->connection = pg_connect("host=$database[0] port=$database[1] dbname=$database[2] user=$database[3] password=$database[4]");
 				if(!$this->connection) echo("<script type='text/javascript'>alert('A conexão com o PostgreSQL não foi estabelecida.')</script>");
